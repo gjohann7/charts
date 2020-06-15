@@ -97,7 +97,7 @@ class DateTimeComboLinePointChart extends StatelessWidget {
           colorFn: (_, __) => charts.MaterialPalette.green.shadeDefault,
           domainFn: (TimeSeriesSales sales, _) => sales.time,
           measureFn: (TimeSeriesSales sales, _) => sales.sales,
-          data: mobileSalesData)
+          data: mobileSalesData))
         // Configure our custom point renderer for this series.
         ..setAttribute(charts.rendererIdKey, 'customPoint'),
     ];
